@@ -2,8 +2,265 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c47c06be-0faa-42ec-8c97-1471290a8d14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/catalog/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lb_upload/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/catalog/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/catalog/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/catalog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/comment/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/comment/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/comment/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/news/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/news/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/news/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/product/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/product/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/product/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/slide/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/slide/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/slide/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/font/FontAwesome.otf" afterPath="$PROJECT_DIR$/app/static/font-awesome/font/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app/static/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app/static/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app/static/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/ico/favicon.ico" afterPath="$PROJECT_DIR$/app/static/ico/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/1.png" afterPath="$PROJECT_DIR$/app/static/img/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/2.png" afterPath="$PROJECT_DIR$/app/static/img/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/3.png" afterPath="$PROJECT_DIR$/app/static/img/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/4.png" afterPath="$PROJECT_DIR$/app/static/img/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/5.png" afterPath="$PROJECT_DIR$/app/static/img/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/6.png" afterPath="$PROJECT_DIR$/app/static/img/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/a.jpg" afterPath="$PROJECT_DIR$/app/static/img/a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/ax.png" afterPath="$PROJECT_DIR$/app/static/img/ax.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/b.jpg" afterPath="$PROJECT_DIR$/app/static/img/b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/bootstrap-ecommerce-templates.PNG" afterPath="$PROJECT_DIR$/app/static/img/bootstrap-ecommerce-templates.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/bootstrap-ring.png" afterPath="$PROJECT_DIR$/app/static/img/bootstrap-ring.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/bootstrap-template.png" afterPath="$PROJECT_DIR$/app/static/img/bootstrap-template.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/bootstrap-templates.png" afterPath="$PROJECT_DIR$/app/static/img/bootstrap-templates.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/bootstrap_free-ecommerce.png" afterPath="$PROJECT_DIR$/app/static/img/bootstrap_free-ecommerce.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/bootstrappage_shop.png" afterPath="$PROJECT_DIR$/app/static/img/bootstrappage_shop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/c.jpg" afterPath="$PROJECT_DIR$/app/static/img/c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/carousel1.png" afterPath="$PROJECT_DIR$/app/static/img/carousel1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/carousel3.png" afterPath="$PROJECT_DIR$/app/static/img/carousel3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/d.jpg" afterPath="$PROJECT_DIR$/app/static/img/d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/disc.png" afterPath="$PROJECT_DIR$/app/static/img/disc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/e.jpg" afterPath="$PROJECT_DIR$/app/static/img/e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/f.jpg" afterPath="$PROJECT_DIR$/app/static/img/f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/g.jpg" afterPath="$PROJECT_DIR$/app/static/img/g.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/h.jpg" afterPath="$PROJECT_DIR$/app/static/img/h.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/i.jpg" afterPath="$PROJECT_DIR$/app/static/img/i.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/j.jpg" afterPath="$PROJECT_DIR$/app/static/img/j.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/logo-bootstrap-shoping-cart.png" afterPath="$PROJECT_DIR$/app/static/img/logo-bootstrap-shoping-cart.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/maestro.png" afterPath="$PROJECT_DIR$/app/static/img/maestro.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/mc.png" afterPath="$PROJECT_DIR$/app/static/img/mc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/new.png" afterPath="$PROJECT_DIR$/app/static/img/new.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/paypal.jpg" afterPath="$PROJECT_DIR$/app/static/img/paypal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/pp.png" afterPath="$PROJECT_DIR$/app/static/img/pp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/s.png" afterPath="$PROJECT_DIR$/app/static/img/s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/shop-cart.PNG" afterPath="$PROJECT_DIR$/app/static/img/shop-cart.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/shopping-cart-template.PNG" afterPath="$PROJECT_DIR$/app/static/img/shopping-cart-template.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/visa.png" afterPath="$PROJECT_DIR$/app/static/img/visa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/white_leather.png" afterPath="$PROJECT_DIR$/app/static/img/white_leather.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/FontAwesome.otf" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/ico/favicon.ico" afterPath="$PROJECT_DIR$/shop-cart/assets/ico/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/1.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/2.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/3.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/4.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/5.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/6.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/a.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/ax.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/ax.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/b.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap-ecommerce-templates.PNG" afterPath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap-ecommerce-templates.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap-ring.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap-ring.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap-template.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap-template.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap-templates.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap-templates.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap_free-ecommerce.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/bootstrap_free-ecommerce.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/bootstrappage_shop.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/bootstrappage_shop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/c.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/carousel1.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/carousel1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/carousel3.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/carousel3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/d.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/disc.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/disc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/e.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/f.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/g.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/g.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/h.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/h.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/i.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/i.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/j.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/j.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/logo-bootstrap-shoping-cart.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/logo-bootstrap-shoping-cart.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/maestro.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/maestro.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/mc.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/mc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/new.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/new.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/paypal.jpg" afterPath="$PROJECT_DIR$/shop-cart/assets/img/paypal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/pp.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/pp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/s.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/shop-cart.PNG" afterPath="$PROJECT_DIR$/shop-cart/assets/img/shop-cart.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/shopping-cart-template.PNG" afterPath="$PROJECT_DIR$/shop-cart/assets/img/shopping-cart-template.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/visa.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/visa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/img/white_leather.png" afterPath="$PROJECT_DIR$/shop-cart/assets/img/white_leather.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/favicon.ico" afterPath="$PROJECT_DIR$/shop-cart/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/project_flask.iml" afterPath="$PROJECT_DIR$/.idea/project_flask.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agrements.txt" afterPath="$PROJECT_DIR$/agrements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="$PROJECT_DIR$/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/__init__.py" afterPath="$PROJECT_DIR$/app/admin/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/admin/__init__.py" afterPath="$PROJECT_DIR$/app/admin/admin/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/admin/controllers.py" afterPath="$PROJECT_DIR$/app/admin/admin/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/admin/forms.py" afterPath="$PROJECT_DIR$/app/admin/admin/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/admin/models.py" afterPath="$PROJECT_DIR$/app/admin/admin/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/catalog/__init__.py" afterPath="$PROJECT_DIR$/app/admin/catalog/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/catalog/controllers.py" afterPath="$PROJECT_DIR$/app/admin/catalog/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/catalog/forms.py" afterPath="$PROJECT_DIR$/app/admin/catalog/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/catalog/models.py" afterPath="$PROJECT_DIR$/app/admin/catalog/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/comment/__init__.py" afterPath="$PROJECT_DIR$/app/admin/comment/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/comment/controllers.py" afterPath="$PROJECT_DIR$/app/admin/comment/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/comment/models.py" afterPath="$PROJECT_DIR$/app/admin/comment/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/dashboard/__init__.py" afterPath="$PROJECT_DIR$/app/admin/dashboard/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/dashboard/controllers.py" afterPath="$PROJECT_DIR$/app/admin/dashboard/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/login/__init__.py" afterPath="$PROJECT_DIR$/app/admin/login/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/login/controllers.py" afterPath="$PROJECT_DIR$/app/admin/login/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/login/forms.py" afterPath="$PROJECT_DIR$/app/admin/login/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/news/__init__.py" afterPath="$PROJECT_DIR$/app/admin/news/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/news/controllers.py" afterPath="$PROJECT_DIR$/app/admin/news/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/news/models.py" afterPath="$PROJECT_DIR$/app/admin/news/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/product/__init__.py" afterPath="$PROJECT_DIR$/app/admin/product/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/product/controllers.py" afterPath="$PROJECT_DIR$/app/admin/product/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/product/models.py" afterPath="$PROJECT_DIR$/app/admin/product/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/slide/__init__.py" afterPath="$PROJECT_DIR$/app/admin/slide/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/slide/controllers.py" afterPath="$PROJECT_DIR$/app/admin/slide/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/slide/models.py" afterPath="$PROJECT_DIR$/app/admin/slide/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/demo/__init__.py" afterPath="$PROJECT_DIR$/app/demo/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/demo/controllers.py" afterPath="$PROJECT_DIR$/app/demo/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helper/__init__.py" afterPath="$PROJECT_DIR$/app/helper/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helper/helper_controller.py" afterPath="$PROJECT_DIR$/app/helper/helper_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/app/static/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/app/static/css/bootstrap-responsive.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/css/font-awesome-ie7.css" afterPath="$PROJECT_DIR$/app/static/font-awesome/css/font-awesome-ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/css/font-awesome-ie7.min.css" afterPath="$PROJECT_DIR$/app/static/font-awesome/css/font-awesome-ie7.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/app/static/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/app/static/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app/static/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/bootstrap.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/extras.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/extras.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/font-awesome-ie7.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/font-awesome-ie7.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/app/static/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/_bootstrap.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/_bootstrap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/_extras.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/_extras.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/font-awesome-ie7.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/font-awesome-ie7.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/app/static/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/app/static/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/app/static/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/jquery.easing-1.3.min.js" afterPath="$PROJECT_DIR$/app/static/js/jquery.easing-1.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/jquery.js" afterPath="$PROJECT_DIR$/app/static/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/jquery.scrollTo-1.4.3.1-min.js" afterPath="$PROJECT_DIR$/app/static/js/jquery.scrollTo-1.4.3.1-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/shop.js" afterPath="$PROJECT_DIR$/app/static/js/shop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/admin/admin/add.html" afterPath="$PROJECT_DIR$/app/templates/admin/admin/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/admin/admin/edit.html" afterPath="$PROJECT_DIR$/app/templates/admin/admin/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/admin/admin/index.html" afterPath="$PROJECT_DIR$/app/templates/admin/admin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/admin/dashboard/index.html" afterPath="$PROJECT_DIR$/app/templates/admin/dashboard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/admin/login/index.html" afterPath="$PROJECT_DIR$/app/templates/admin/login/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/demo/index.html" afterPath="$PROJECT_DIR$/app/templates/demo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/layouts/admin.html" afterPath="$PROJECT_DIR$/app/templates/layouts/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/layouts/layout1.html" afterPath="$PROJECT_DIR$/app/templates/layouts/layout1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/layouts/login_admin.html" afterPath="$PROJECT_DIR$/app/templates/layouts/login_admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/_macros.html" afterPath="$PROJECT_DIR$/app/templates/security/_macros.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/_menu.html" afterPath="$PROJECT_DIR$/app/templates/security/_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/_messages.html" afterPath="$PROJECT_DIR$/app/templates/security/_messages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/change_password.html" afterPath="$PROJECT_DIR$/app/templates/security/change_password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/change_notice.html" afterPath="$PROJECT_DIR$/app/templates/security/email/change_notice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/change_notice.txt" afterPath="$PROJECT_DIR$/app/templates/security/email/change_notice.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/confirmation_instructions.html" afterPath="$PROJECT_DIR$/app/templates/security/email/confirmation_instructions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/confirmation_instructions.txt" afterPath="$PROJECT_DIR$/app/templates/security/email/confirmation_instructions.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/login_instructions.html" afterPath="$PROJECT_DIR$/app/templates/security/email/login_instructions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/login_instructions.txt" afterPath="$PROJECT_DIR$/app/templates/security/email/login_instructions.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/reset_instructions.html" afterPath="$PROJECT_DIR$/app/templates/security/email/reset_instructions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/reset_instructions.txt" afterPath="$PROJECT_DIR$/app/templates/security/email/reset_instructions.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/reset_notice.html" afterPath="$PROJECT_DIR$/app/templates/security/email/reset_notice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/reset_notice.txt" afterPath="$PROJECT_DIR$/app/templates/security/email/reset_notice.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/welcome.html" afterPath="$PROJECT_DIR$/app/templates/security/email/welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/email/welcome.txt" afterPath="$PROJECT_DIR$/app/templates/security/email/welcome.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/forgot_password.html" afterPath="$PROJECT_DIR$/app/templates/security/forgot_password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/login_user.html" afterPath="$PROJECT_DIR$/app/templates/security/login_user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/register_user.html" afterPath="$PROJECT_DIR$/app/templates/security/register_user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/reset_password.html" afterPath="$PROJECT_DIR$/app/templates/security/reset_password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/send_confirmation.html" afterPath="$PROJECT_DIR$/app/templates/security/send_confirmation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/security/send_login.html" afterPath="$PROJECT_DIR$/app/templates/security/send_login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os" afterPath="$PROJECT_DIR$/os" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/about_us.html" afterPath="$PROJECT_DIR$/shop-cart/about_us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/shop-cart/assets/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/shop-cart/assets/css/bootstrap-responsive.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/shop-cart/assets/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/shop-cart/assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/css/font-awesome-ie7.css" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/css/font-awesome-ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/css/font-awesome-ie7.min.css" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/css/font-awesome-ie7.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/bootstrap.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/extras.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/extras.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/font-awesome-ie7.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/font-awesome-ie7.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_bootstrap.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_bootstrap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_extras.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_extras.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/font-awesome-ie7.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/font-awesome-ie7.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/shop-cart/assets/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/shop-cart/assets/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/shop-cart/assets/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/js/jquery.easing-1.3.min.js" afterPath="$PROJECT_DIR$/shop-cart/assets/js/jquery.easing-1.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/js/jquery.js" afterPath="$PROJECT_DIR$/shop-cart/assets/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/js/jquery.scrollTo-1.4.3.1-min.js" afterPath="$PROJECT_DIR$/shop-cart/assets/js/jquery.scrollTo-1.4.3.1-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/assets/js/shop.js" afterPath="$PROJECT_DIR$/shop-cart/assets/js/shop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/cart.html" afterPath="$PROJECT_DIR$/shop-cart/cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/compair.html" afterPath="$PROJECT_DIR$/shop-cart/compair.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/contact.html" afterPath="$PROJECT_DIR$/shop-cart/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/footer.html" afterPath="$PROJECT_DIR$/shop-cart/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/forget_password.html" afterPath="$PROJECT_DIR$/shop-cart/forget_password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/four-col.html" afterPath="$PROJECT_DIR$/shop-cart/four-col.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/general.html" afterPath="$PROJECT_DIR$/shop-cart/general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/grid-view.html" afterPath="$PROJECT_DIR$/shop-cart/grid-view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/header.html" afterPath="$PROJECT_DIR$/shop-cart/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/index.html" afterPath="$PROJECT_DIR$/shop-cart/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/list-view.html" afterPath="$PROJECT_DIR$/shop-cart/list-view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/login.html" afterPath="$PROJECT_DIR$/shop-cart/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/product_details.html" afterPath="$PROJECT_DIR$/shop-cart/product_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/products.html" afterPath="$PROJECT_DIR$/shop-cart/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/register.html" afterPath="$PROJECT_DIR$/shop-cart/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/sidebar.html" afterPath="$PROJECT_DIR$/shop-cart/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/style.css" afterPath="$PROJECT_DIR$/shop-cart/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-cart/three-col.html" afterPath="$PROJECT_DIR$/shop-cart/three-col.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,39 +272,66 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/admin/slide/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#79#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/admin/controllers.py">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/admin/catalog/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="738">
+              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="52" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/admin/slide/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="101" column="36" lean-forward="false" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/catalog/models.py">
+        <entry file="file://$PROJECT_DIR$/app/admin/slide/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="80">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="controllers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/slide/controllers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +342,18 @@
         <option value="$PROJECT_DIR$/app/admin/admin/controllers.py" />
         <option value="$PROJECT_DIR$/app/admin/news/models.py" />
         <option value="$PROJECT_DIR$/app/admin/catalog/forms.py" />
+        <option value="$PROJECT_DIR$/app/admin/catalog/models.py" />
+        <option value="$PROJECT_DIR$/app/templates/admin/catalog/add.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/catalog/edit.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/catalog/index.html" />
+        <option value="$PROJECT_DIR$/app/demo/controllers.py" />
+        <option value="$PROJECT_DIR$/app/templates/demo/index.html" />
         <option value="$PROJECT_DIR$/app/admin/catalog/controllers.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/app/templates/admin/slide/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/slide/add.html" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/app/admin/slide/controllers.py" />
       </list>
     </option>
   </component>
@@ -83,7 +378,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -110,120 +405,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates/admin/slide" />
+      <recent name="$PROJECT_DIR$/app/templates/admin/product" />
+      <recent name="$PROJECT_DIR$/app/templates/admin/news" />
+      <recent name="$PROJECT_DIR$/app/templates/admin/comment" />
+      <recent name="$PROJECT_DIR$/app/templates/admin/catalog" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -344,16 +542,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25737053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29003984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3142415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -365,6 +562,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3142415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2804781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -374,17 +591,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+    <entry file="file://$PROJECT_DIR$/app/admin/slide/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="396">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
-            <element signature="e#0#79#0" expanded="true" />
+            <element signature="e#0#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/catalog/models.py">
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/slide/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -392,11 +609,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/slide/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="106" column="32" lean-forward="false" selection-start-line="104" selection-start-column="36" selection-end-line="106" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/slide/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/catalog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="67" lean-forward="true" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/catalog/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="85" lean-forward="false" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/catalog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/admin/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/catalog/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/admin/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/admin/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,27 +738,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/slide/controllers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/slide/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -456,14 +765,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/comment/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/product/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/news/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/admin/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/catalog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="126">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/catalog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/admin/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/admin/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/catalog/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agrements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/demo/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="486" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/catalog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="67" lean-forward="false" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/catalog/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/layouts/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1041" column="32" lean-forward="false" selection-start-line="1041" selection-start-column="16" selection-end-line="1041" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/slide/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/slide/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="101" column="36" lean-forward="false" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/slide/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helper/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -471,20 +942,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/admin/controllers.py">
+    <entry file="file://$PROJECT_DIR$/app/helper/helper_controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/catalog/controllers.py">
+    <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/slide/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#0#79#0" expanded="true" />
+            <element signature="e#0#95#0" expanded="true" />
           </folding>
         </state>
       </provider>

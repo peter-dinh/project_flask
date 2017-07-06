@@ -24,3 +24,11 @@ app.register_blueprint(mod_admin_login)
 
 from app.admin.admin.controllers import mod_admin
 app.register_blueprint(mod_admin)
+
+from app.admin.catalog.controllers import mod_catalog
+app.register_blueprint(mod_catalog)
+
+from app.admin.slide.controllers import mod_slide
+app.register_blueprint(mod_slide)
+
+

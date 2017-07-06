@@ -1,0 +1,125 @@
+{% extends "layouts/admin.html" %}
+{% block title %}Manager Admin{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-xs-12 col-md-12">
+        <div class="widget">
+            <div class="widget-header  with-footer">
+                <span class="widget-caption">List Catalog</span>
+                <div class="widget-buttons">
+                    <a href="#" data-toggle="maximize">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                    <a href="#" data-toggle="collapse">
+                        <i class="fa fa-minus"></i>
+                    </a>
+                    <a href="#" data-toggle="dispose">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="widget-body">
+                {% with messages = get_flashed_messages(category_filter=["success"]) %}
+                {% if messages %}
+                <div class="alert alert-success fade in alert-radius-bordered alert-shadowed">
+                    <button class="close" data-dismiss="alert">
+                        ×
+                    </button>
+                    <i class="fa-fw fa fa-info"></i>
+                    {% for message in messages %}
+                    <strong>Message:</strong> {{ message }}
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% endwith %}
+
+                {% with messages = get_flashed_messages(category_filter=["error"]) %}
+                {% if messages %}
+                <div class="alert alert-danger fade in alert-radius-bordered alert-shadowed">
+                    <button class="close" data-dismiss="alert">
+                        ×
+                    </button>
+                    <i class="fa-fw fa fa-info"></i>
+                    {% for message in messages %}
+                    <strong>Message:</strong> {{ message }}
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% endwith %}
+
+                <div class="table-toolbar">
+                    <a href="{{ url_for('.add') }}" class="btn btn-default">
+                        Add New User
+                    </a>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-default" href="#">Tools</a>
+                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu dropdown-default">
+                            <li>
+                                <a href="#">Action</a>
+                            </li>
+                            <li>
+                                <a href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a href="#">Something else here</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">Separated link</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="flip-scroll">
+                    <table class="table table-bordered table-striped table-condensed flip-content">
+                        <thead class="flip-content bordered-palegreen">
+                            <tr>
+                                <th>
+                                    ID
+                                </th>
+                                <th>
+                                    Catalog
+                                </th>
+                                <th>
+                                    Parent
+                                </th>
+                                <th>
+                                    Order
+                                </th>
+                                <th>
+                                   Controll
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for item in catalog: %}
+                            <tr>
+                                <td>
+                                    {{ item.id }}
+                                </td>
+                                <td>
+                                    {{ item.name }}
+                                </td>
+                                <td>
+                                    {% if item.parent_id == 0 %}Is catalog parent{% endif %}
+                                    {% if item.parent_id != 0 %}{{ list_parent[item.parent_id] }}{% endif %}
+                                </td>
+                                <td>
+                                    {{ item.sort_order }}
+                                </td>
+                                <td>
+                                    <a href="{{ url_for('.edit', id = item.id ) }}" class="btn btn-info btn-xs"><i class="fa fa-edit"></i> Edit</a>
+                                    <a href="{{ url_for('.delete', id = item.id ) }}" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

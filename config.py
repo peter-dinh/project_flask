@@ -7,3 +7,4 @@ SQLALCHEMY_DATABASE_URI = "postgresql://postgres:dinhtruong@localhost/web"
 
 import os
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
